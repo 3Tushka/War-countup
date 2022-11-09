@@ -1,8 +1,7 @@
 .countup {
     margin: 16% auto;
     max-width: 40%;
-    backdrop-filter: blur(2px);
-    color: #fff;
+    color: black;
 
     &__title {
         margin: 10px 0;
@@ -37,7 +36,7 @@
             }
 
             span[class*="timeRef"] {
-                color: rgb(255, 255, 255);
+                color: black
             }
         }
     }
