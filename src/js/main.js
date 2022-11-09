@@ -1,1 +1,2 @@
-import '../style/style.scss'
+import '../style/main.scss'
+import '../style/background.scss'
