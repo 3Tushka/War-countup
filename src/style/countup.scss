@@ -1,0 +1,43 @@
+.countup {
+    margin: 16% auto;
+    max-width: 40%;
+    backdrop-filter: blur(2px);
+    color: #fff;
+
+    &__title {
+        margin: 10px 0;
+        font-size: 40px;
+        font-weight: 600;
+        display: inline-block;
+        text-shadow: 2px 6px 7px rgba(255, 0, 0, 0.56);
+    }
+
+    &__subtext {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .countup-box {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+
+            .timeel {
+                padding: 0 20px;
+                margin: 0;
+                color: rgb(191, 16, 16);
+                font-size: 50px;
+                min-width: 2.6rem;
+                text-transform: uppercase;
+            }
+
+            span[class*="timeRef"] {
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}
